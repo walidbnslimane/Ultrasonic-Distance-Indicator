@@ -64,7 +64,7 @@ def measure_distance():
     distance = (duration * 0.0343) / 2  # cm
     return distance
 ```
-###LED Indicator Logic
+### LED Indicator Logic
 This part of the code lights up LEDs based on the measured distance.
 
 ```python
@@ -83,7 +83,7 @@ def update_leds(distance):
         green_led.on()
 ```
 
-###Main Loop
+### Main Loop
 The main loop continuously measures distance and updates the LEDs.
 
 ```python
