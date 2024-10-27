@@ -3,7 +3,7 @@
 | Component             | Description                                               | Pin Connection            | Image                                       |
 |-----------------------|-----------------------------------------------------------|---------------------------|---------------------------------------------|
 | Raspberry Pi Pico WH  | Microcontroller with built-in WiFi                        | GPIO 8, 9, 16, 17, 18  | ![Pico WH](https://github.com/user-attachments/assets/3d182aa3-03d6-452b-a237-287b00e4ef78)  |
-| Ultrasonic Sensor (HC-SR04) | Measures distance by emitting and receiving sound waves | Trig to GPIO 17, Echo to GPIO 16 | ![Ultrasonic Sensor](https://github.com/user-attachments/assets/2599ed72-8cf7-478a-8549-72aba8d3638c) |
+| Ultrasonic Sensor (HC-SR04) | Measures distance by emitting and receiving sound waves | Trig to GPIO 9, Echo to GPIO 8 | ![Ultrasonic Sensor](https://github.com/user-attachments/assets/2599ed72-8cf7-478a-8549-72aba8d3638c) |
 | Red LED               | Indicates very close distance                             | GPIO 18                   | ![Red LED](https://github.com/user-attachments/assets/265a4442-a139-4051-82f5-eb93e849d90a)  |
 | Yellow LED            | Indicates medium distance                                 | GPIO 17                   | ![Yellow LED](https://github.com/user-attachments/assets/24de3840-b46d-4043-a0f1-da4f98be119a)  |
 | Green LED             | Indicates safe distance                                   | GPIO 16                   | ![Green LED](https://github.com/user-attachments/assets/130c74d8-a96f-4a34-b5be-614e10a985fb)  |
